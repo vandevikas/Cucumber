@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JobSearch suite" duration-ms="401" started-at="2017-11-22T10:44:03Z" finished-at="2017-11-22T10:44:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunnerTest@3abbfa04]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="JobSearch test" duration-ms="401" started-at="2017-11-22T10:44:03Z" finished-at="2017-11-22T10:44:03Z">
+      <class name="runner.RunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunnerTest@3abbfa04]" name="setUpClass" is-config="true" duration-ms="239" started-at="2017-11-22T16:14:03Z" finished-at="2017-11-22T16:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunnerTest@3abbfa04]" name="feature" duration-ms="26" started-at="2017-11-22T16:14:03Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-11-22T16:14:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cash Withdrawal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunnerTest@3abbfa04]" name="tearDownClass" is-config="true" duration-ms="17" started-at="2017-11-22T16:14:03Z" finished-at="2017-11-22T16:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunnerTest -->
+    </test> <!-- JobSearch test -->
+  </suite> <!-- JobSearch suite -->
+</testng-results>
